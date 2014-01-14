@@ -19,6 +19,8 @@ var win = controller.createWindow({
 win.open();
 
 controller.closeWindow('homepage'); //close window with window name 'homepage'
+
 controller.closeWinGroup('group1'); //close window with group name 'group1'
+
 controller.windowHome();  //redirect to root window
 
