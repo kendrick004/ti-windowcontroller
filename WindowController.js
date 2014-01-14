@@ -20,7 +20,7 @@ controller.createWindow = function(instance){
 	
 	instance.windowSoftInputMode = Ti.UI.Android.SOFT_INPUT_ADJUST_PAN;
 	
-	var win = new AppWin.windowList(instance);
+	var win = Ti.UI.createWindow(instance);
 	windowStack.push(win);
 
 	
