@@ -10,10 +10,15 @@ Create new window.
 var controller = require('WindowController');
 
 var win = controller.createWindow({
+
   backgroundColor: 'white',
+  
   layout: 'vertical',
+  
   winGroup: 'group1',
+  
   winName : 'homepage'  //add win name property so it can be close by its name
+  
 });
 
 win.open();
